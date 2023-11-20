@@ -9,6 +9,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
+    "@types/navermaps": "^3.7.3",
     "@types/node": "^16.11.58",
     "@types/react": "^18.0.18",
     "@types/react-copy-to-clipboard": "^5.0.4",

@@ -6,12 +6,33 @@ import CongratulatoryMoney from './components//CongratulatoryMoney';
 import Configs from './configs';
 import Share from './components/Share';
 import { Layout } from 'antd';
+import { styled } from '@stitches/react';
 
 const { Footer } = Layout;
+
+// const MainLayout = styled('div',
+//   {
+//     content: "",
+//     display: 'block',
+//     position: 'absolute',
+//     'z-index': 100,
+//     top: 0,
+//     left: 0,
+//     right: 0,
+//     bottom: 0,
+//     '-webkit-animation': 'snow 16s linear infinite',
+//     animation: 'snow 16s linear infinite',
+//     'pointer-events': 'none',
+//     'background-size': '450px auto',
+//     background: `url("${Configs.bgImages[0]}"),url("${Configs.bgImages[1]}")`
+// });
+
+
 
 function App() {
   return (
     <main style={{ height: '100%' }}>
+      {/*<MainLayout/>*/}
       <TitleLayout config={Configs} />
       <Greeting config={Configs} />
       <Gallery config={Configs} />

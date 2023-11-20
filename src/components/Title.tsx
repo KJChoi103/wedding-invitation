@@ -2,14 +2,14 @@ import { styled } from '@stitches/react';
 import Confetti from 'react-confetti';
 import { useWindowSize } from 'react-use';
 import { ConfigsType } from '../configs';
-
-const isPortrait = window.matchMedia('(orientation: portrait)').matches;
-
-const Section = styled('section', {
-  height: '100%',
-  background: '#DADADA',
-  overflow: 'hidden',
-  position: 'relative',
+  
+  const isPortrait = window.matchMedia('(orientation: portrait)').matches;
+  
+  const Section = styled('section', {
+    height: '100%',
+    background: '#DADADA',
+    overflow: 'hidden',
+    position: 'relative',
 });
 
 const Layout = styled('div', {

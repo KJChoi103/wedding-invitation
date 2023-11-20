@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { styled } from '@stitches/react';
 import { ConfigsType } from '../configs';
+import NaverMap from './NaverMap';
 
 const isPortrait = window.matchMedia('(orientation: portrait)').matches;
 
@@ -53,11 +54,13 @@ const Location = ({ config }: LocationProps) => {
           식장 사정으로 축하화환은 정중히 사양합니다.
           <br />
           <br />
-          <img
-            style={{ width: isPortrait ? '90%' : '60%' }}
-            src={config.locationMapImage}
-            alt="Wedding Invitation Title Picutre"
-          />
+          {/*<img*/}
+          {/*  style={{ width: isPortrait ? '90%' : '60%' }}*/}
+          {/*  src={config.locationMapImage}*/}
+          {/*  alt="Wedding Invitation Title Picutre"*/}
+          {/*/>*/}
+          <NaverMap/>
+          
         </SubTitle>
       </Layout>
     </Section>

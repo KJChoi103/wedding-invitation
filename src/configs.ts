@@ -3,6 +3,8 @@ import LocationMapImage from './resources/LocationMap.png';
 import GalleryPhoto1 from './resources/wedding_pic_01.jpg';
 import GalleryPhoto2 from './resources/wedding_pic_02.jpg';
 import GalleryPhoto3 from './resources/wedding_pic_03.jpg';
+import SakuraBg1 from './resources/bg-effect-sakura-1.png';
+import SakuraBg2 from './resources/bg-effect-sakura-2.png';
 
 const isDev = process.env.NODE_ENV === 'development';
 const url = isDev?'http://localhost:3000':'https://kjmarryhk.vercel.app/';
@@ -35,6 +37,11 @@ const Configs: ConfigsType = {
     GalleryPhoto2,
     GalleryPhoto3
   ],
+  
+  bgImages: [
+    SakuraBg1,
+    SakuraBg2
+  ],
 };
 
 export type ConfigsType = {
@@ -48,6 +55,7 @@ export type ConfigsType = {
   titleImage: string;
   locationMapImage: string;
   galleryImages: string[];
+  bgImages: string[];
 };
 
 type Person = {

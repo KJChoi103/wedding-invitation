@@ -43,7 +43,8 @@ const Greeting = ({ config }: GreetingProps) => {
         background: onScreen ? '#EFEBE9' : '#DADADA',
         overflow: 'hidden',
         position: 'relative',
-        transition: 'background 1s ease-in',
+        transition: 'opacity 1s ease-in-out',
+        opacity:onScreen? 1 : 0,
       }}
     >
       <Layout>

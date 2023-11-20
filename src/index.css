@@ -18,15 +18,3 @@ body,
 #root > div {
   height: 100%;
 }
-
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
