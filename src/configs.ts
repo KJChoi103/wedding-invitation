@@ -1,32 +1,31 @@
 import TitleImage from './resources/Title.png';
 import LocationMapImage from './resources/LocationMap.png';
-import GalleryPhoto1 from './resources/Gallery_Photo_1.png';
-import GalleryPhoto2 from './resources/Gallery_Photo_2.png';
-import GalleryPhoto3 from './resources/Gallery_Photo_3.png';
-import GalleryPhoto4 from './resources/Gallery_Photo_4.png';
-import GalleryPhoto5 from './resources/Gallery_Photo_5.png';
-import GalleryPhoto6 from './resources/Gallery_Photo_6.png';
+import GalleryPhoto1 from './resources/wedding_pic_01.jpg';
+import GalleryPhoto2 from './resources/wedding_pic_02.jpg';
+import GalleryPhoto3 from './resources/wedding_pic_03.jpg';
 
+const isDev = process.env.NODE_ENV === 'development';
+const url = isDev?'http://localhost:3000':'https://kjmarryhk.vercel.app/';
 const Configs: ConfigsType = {
-  url: 'http://localhost:3000',
-  kakaoToken: '카카오톡 API 토큰을 입력해주세요!',
-  kakaoImage: '카카오톡으로 공유할 때 사용되는 대표이미지 URL을 입력해주세요!',
-  weddingDate: '1970년 01월 01일, 목요일 오전 12시 00분',
-  weddingLocation: '○○○웨딩, ○층 ○○홀',
+  url: url,
+  kakaoToken: '2c2be54fb20d3be634239d99bcea4bf1',
+  kakaoImage: `${url}/resources/Title.png`,
+  weddingDate: '2024년 6월 22일, 토 오후 2시',
+  weddingLocation: '서울 구로구 경인로 662 : 디큐브시티 41층',
   groom: {
-    name: '○○○',
+    name: '최경주',
     accountNumber: '○○은행 ***-***-******',
-    fatherName: '○○○',
+    fatherName: '최규성',
     fatherAccountNumber: '○○은행 ***-***-******',
-    motherName: '○○○',
+    motherName: '이순희',
     motherAccountNumber: '○○은행 ***-***-******',
   },
   bride: {
-    name: '○○○',
+    name: '김혜랑',
     accountNumber: '○○은행 ***-***-******',
-    fatherName: '○○○',
+    fatherName: '김강일',
     fatherAccountNumber: '○○은행 ***-***-******',
-    motherName: '○○○',
+    motherName: '김문자',
     motherAccountNumber: '○○은행 ***-***-******',
   },
   titleImage: TitleImage,
@@ -34,10 +33,7 @@ const Configs: ConfigsType = {
   galleryImages: [
     GalleryPhoto1,
     GalleryPhoto2,
-    GalleryPhoto3,
-    GalleryPhoto4,
-    GalleryPhoto5,
-    GalleryPhoto6,
+    GalleryPhoto3
   ],
 };
 

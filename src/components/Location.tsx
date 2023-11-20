@@ -44,12 +44,13 @@ const Location = ({ config }: LocationProps) => {
       <Layout>
         <Title>오시는 길</Title>
         <SubTitle>
-          서울특별시 영등포구 은행로 30
+          서울 구로구 경인로 662 : 디큐브시티 41층
           <br />
           <br />
-          국회의사당역 3번 출구로 나오셔서
+          신도림역 5번 출구에서 도보 3분
           <br />
-          도보로 6분 거리입니다.
+          <br />
+          식장 사정으로 축하화환은 정중히 사양합니다.
           <br />
           <br />
           <img

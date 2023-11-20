@@ -49,21 +49,25 @@ const Greeting = ({ config }: GreetingProps) => {
       <Layout>
         <Title>결혼합니다</Title>
         <SubTitle>
-          봄에 태어난 {config.bride.name}
-          <br />
-          가을에 태어난 {config.groom.name}
-          <br />
-          <br />
-          관심사도, 가치관도 달랐던 두 사람
-          <br />
-          사랑으로 닮은 꼴이 되어
-          <br />
-          인생이라는 여행을 함께 떠나려 합니다.
-          <br />
-          <br />
-          따뜻한 격려와 축복으로
-          <br />
-          힘찬 출발의 자리를 빛내주시기 바랍니다.
+        {/*  겨울에 태어난 {config.bride.name}*/}
+        {/*  <br />*/}
+        {/*  여름에 태어난 {config.groom.name}*/}
+        {/*  <br />*/}
+        {/*  <br />*/}
+        {/*  관심사도, 가치관도 달랐던 두 사람*/}
+        {/*  <br />*/}
+        {/*  사랑으로 닮은 꼴이 되어*/}
+        {/*  <br />*/}
+        {/*  인생이라는 여행을 함께 떠나려 합니다.*/}
+        {/*  <br />*/}
+        {/*  <br />*/}
+        {/*  따뜻한 격려와 축복으로*/}
+        {/*  <br />*/}
+        {/*  힘찬 출발의 자리를 빛내주시기 바랍니다.*/}
+          새로이 시작하는 작은 사랑이<br /><br />
+          보다 크고 깊은 사랑이 되려고 합니다.<br /><br />
+          함께 자리하여 축복해 주시면<br /><br />
+          더 없는 기쁨이겠습니다.<br /><br />
           <br />
           <br />
           {config.groom.fatherName} · {config.groom.motherName}의 아들 {config.groom.name}
